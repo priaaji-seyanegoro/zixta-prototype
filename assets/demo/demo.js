@@ -21,7 +21,7 @@ demo = {
     myChart = new Chart(ctx, {
       type: "pie",
       data: {
-        labels: [1, 2, 3],
+        labels: ["gray", "blue", "orange", "merah"],
         datasets: [
           {
             label: "Emails",
@@ -46,7 +46,7 @@ demo = {
         },
 
         tooltips: {
-          enabled: false,
+          enabled: true,
         },
 
         scales: {
